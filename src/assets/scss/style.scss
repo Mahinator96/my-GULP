@@ -1,11 +1,4 @@
-@import "var.scss";
-@import "_global.scss";
-@import "__mixin.scss";
-
-
-body {
-	color: red;
-}
-.body-wrapper {
-  @include adaptiv-font(10, 30);
-}
+@import 'var.scss';
+@import '_fonts.scss';
+@import '_global.scss';
+@import '__mixin.scss';
