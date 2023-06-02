@@ -44,7 +44,7 @@ const path = {
 	},
 	src: {
 		js: 						`${srcPath}assets/js/*.js`,
-		css: 						`${srcPath}assets/scss/*.scss`,
+		css: 						`${srcPath}assets/scss/style.scss`,
 		html: 					`${srcPath}*.html`,
 		fonts: 					`${srcPath}assets/fonts/**/*.{ttf,eot,svg,woff,woff2}`, 																		
 		noSVG: 					[`${srcPath}/assets/images/**/*.{jpeg,jpg,png,gif,ico,webp,webmanifest,xml,json}`, `!${srcPath}/assets/images/**/*.svg`], 	
